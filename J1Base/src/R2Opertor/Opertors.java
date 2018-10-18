@@ -48,5 +48,26 @@ public class Opertors {
 			float f4 = 1/3*3.0f;
 			System.out.println(f4);
 		}
+		{
+			//++ --
+			int n=1;
+			++n;
+			System.out.println(n);
+			--n;
+			n--;
+			System.out.println(n);
+		}
+		//赋值运算符
+		{
+			int x=10;
+			int y=x=x+1;
+			System.out.println(x);
+			System.out.println(y);
+			
+			int s=10;
+			s+=2; //复合运算符  和其它的运算符组合是一样的
+			System.out.println(s);
+		}
+		
 	}
 }
