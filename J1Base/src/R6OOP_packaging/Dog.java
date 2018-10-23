@@ -1,4 +1,4 @@
-package R6OOP;
+package R6OOP_packaging;
 
 public class Dog {
 	// javaBean 规范 所有的成员变量都为private 需要有getter和setter方法  boolean 类型 返回方法可以是isXXX
@@ -7,6 +7,14 @@ public class Dog {
 	//必须有一无参构造方法
 	private int age;
 	private String name;
+	public Dog() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Dog [age=" + age + ", name=" + name + ", vip=" + vip + "]";
+	}
 	private boolean vip;
 	public int getAge() {
 		return age;

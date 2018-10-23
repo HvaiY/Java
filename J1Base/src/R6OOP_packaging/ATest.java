@@ -1,4 +1,4 @@
-package R6OOP;
+package R6OOP_packaging;
 
 public class ATest {
 
