@@ -1,4 +1,4 @@
-package R6FaceObject;
+package R6OOP;
 
 public class ATest {
 
