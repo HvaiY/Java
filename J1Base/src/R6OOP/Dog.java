@@ -7,6 +7,14 @@ public class Dog {
 	//必须有一无参构造方法
 	private int age;
 	private String name;
+	public Dog() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Dog [age=" + age + ", name=" + name + ", vip=" + vip + "]";
+	}
 	private boolean vip;
 	public int getAge() {
 		return age;
