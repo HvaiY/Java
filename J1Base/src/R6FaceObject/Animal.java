@@ -1,8 +1,8 @@
 package R6FaceObject;
 
 public class Animal {
-	// 构造函数
-	// 默认 一个类都有一个无参构造函数 但是都隐藏了 ，然而可以显示的使用
+	// 构造方法 无void  无返回值 签名和类名一样
+	// 默认 一个类都有一个无参构造方法 但是都隐藏了 ，然而可以显示的使用
 	public Animal() {
 		System.out.println("无参构造函数");
 	}
