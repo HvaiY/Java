@@ -1,4 +1,4 @@
-package R6OOP;
+package R6OOP_packaging;
 
 public class Animal {
 	// 构造方法 无void  无返回值 签名和类名一样
