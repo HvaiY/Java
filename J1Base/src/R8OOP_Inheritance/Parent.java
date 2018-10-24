@@ -1,4 +1,4 @@
-package R8OOP_Inherit;
+package R8OOP_Inheritance;
 
 public class Parent {
 	public void eat() {

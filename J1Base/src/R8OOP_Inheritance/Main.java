@@ -1,4 +1,4 @@
-package R8OOP_Inherit;
+package R8OOP_Inheritance;
 
 public class Main {
 	public static void main(String[] args) {
