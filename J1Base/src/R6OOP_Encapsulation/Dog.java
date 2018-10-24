@@ -1,4 +1,4 @@
-package R6OOP_packaging;
+package R6OOP_Encapsulation;
 
 public class Dog {
 	// javaBean 规范 所有的成员变量都为private 需要有getter和setter方法  boolean 类型 返回方法可以是isXXX

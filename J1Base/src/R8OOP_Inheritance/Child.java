@@ -1,4 +1,4 @@
-package R8OOP_Inherit;
+package R8OOP_Inheritance;
 
 public class Child extends Parent{
 		//	//覆盖父类的方法
