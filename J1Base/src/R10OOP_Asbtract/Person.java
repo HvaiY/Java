@@ -4,16 +4,16 @@ package R10OOP_Asbtract;
 public abstract class Person {
 
     //公共方法
-    void speak(){
-         System.out.println("人类的话语我都会");
-     }
+    void speak() {
+        System.out.println("人类的话语我都会");
+    }
 
-     static void speak2(){
+    static void speak2() {
         System.out.println("人类的话语我都会的 ——静态");
     }
 
-     //公共字段  建议public  不然外界访问不到
-     private int age=18;
+    //公共字段  建议public  不然外界访问不到
+    private int age = 18;
 
     void setAge(int age) {
         this.age = age;
@@ -22,6 +22,7 @@ public abstract class Person {
     public int getAge() {
         return age;
     }
-  //抽象方法
-    public  abstract void  run();
+
+    //抽象方法
+    public abstract void run();
 }
