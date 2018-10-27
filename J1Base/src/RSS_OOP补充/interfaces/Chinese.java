@@ -1,6 +1,6 @@
 package RSS_OOP²¹³ä.interfaces;
 
-public class Chinese implements Personable {
+public class Chinese implements Animal,Personable {
 
 	@Override
 	public void say() {

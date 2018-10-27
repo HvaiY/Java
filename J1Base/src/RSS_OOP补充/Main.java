@@ -2,6 +2,7 @@ package RSS_OOP补充;
 
 import RSS_OOP补充.abs.Chinese;
 import RSS_OOP补充.abs.Person;
+import RSS_OOP补充.interfaces.Animal;
 import RSS_OOP补充.interfaces.Personable;
 
 public class Main {
@@ -9,10 +10,19 @@ public class Main {
 		Person p = new Chinese();
 		p.run();
 		p.say();
+		
+		RSS_OOP补充.interfaces.Animal pa=new RSS_OOP补充.interfaces.Chinese();
+		pa.eat();
+		System.out.println(pa.a);
+	
+		RSS_OOP补充.interfaces.Chinese	pap=new RSS_OOP补充.interfaces.Chinese();
+		pap.eat();
+	//	System.out.println(pap.a); 子类对象赋值给子类那么无法明确的知道引用的是哪个接口“继承”过来的字段
 
 		RSS_OOP补充.interfaces.Personable p2 = new RSS_OOP补充.interfaces.Chinese();
 		p2.eat();
 		p2.say();
+		System.out.println(p2.a);
 
 		// 匿名类 （内部内）
 		RSS_OOP补充.interfaces.Personable p3 = new Personable() {
@@ -57,6 +67,18 @@ public class Main {
 		
 		System.out.println(d==e);
 		System.out.println(w);
+		
+		switch ("b") {
+		case "a":
+			System.out.println("a");
+			break;
+
+		default:
+			break;
+		case "b":
+			System.out.println("b");
+			break;
+		}
 		
 	}
 
