@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="J2MyGame">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/J2MyGame/RuPengGame.jar!/" />
+      <root url="jar://$PROJECT_DIR$/J2MyGame/jl1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

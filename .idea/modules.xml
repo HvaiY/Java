@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/J1Base/J1Base.iml" filepath="$PROJECT_DIR$/J1Base/J1Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/J2MyGame/J2MyGame.iml" filepath="$PROJECT_DIR$/J2MyGame/J2MyGame.iml" />
+    </modules>
+  </component>
+</project>

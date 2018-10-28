@@ -2,7 +2,6 @@ package RSS_OOP²¹³ä;
 
 import RSS_OOP²¹³ä.abs.Chinese;
 import RSS_OOP²¹³ä.abs.Person;
-import RSS_OOP²¹³ä.interfaces.Animal;
 import RSS_OOP²¹³ä.interfaces.Personable;
 
 public class Main {
