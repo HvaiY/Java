@@ -39,7 +39,7 @@ public class ListDemo {
 		System.out.println(list);//索引从零开始，往第二个位置添加了一个元素
 		list.add(4,"abc");
 		System.out.println(list);//往最后一个位置添加了 一个元素  success
-//		list.add(6, "ssss");//超出索引界限，因此报错
+//	list.add(6, "ssss");//超出索引界限，因此报错（中间出现一个元素跳过了）
 //		System.out.println(list);
 		
 		System.out.println(list.get(4));//如果超出索引界限同样报错

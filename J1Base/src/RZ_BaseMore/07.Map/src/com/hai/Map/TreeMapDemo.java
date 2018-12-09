@@ -18,7 +18,7 @@ public class TreeMapDemo {
 			@Override
 			public int compare(Student o1, Student o2) {
 				int num=o1.getAge()-o2.getAge();//比较排序 升序   如果是 o2.getAge()-o1.getAge()  那么就是降序
-				num=num==0?o1.getName().compareTo(o2.getName()):num;  //compareTo 内部比较长度 同事比较字符排序通过哈希码
+				num=num==0?o1.getName().compareTo(o2.getName()):num;  //compareTo 内部比较长度 同时比较字符排序通过哈希码
 				return num;
 			}
 		});
